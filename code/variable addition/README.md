@@ -6,6 +6,6 @@ $$ Clvanco =  (0.705 \times \text{{CrCl}} + 4) \times 0.06$$
 
 $$ V_d = 0.29 \times \text{{age}} + 0.33 \times (\text{{weight}} + 11)$$
 
-$$Ke = \max( \min( \frac{CL_{\text{vanco}}}{Vd}},  0.15), 0.008)$$
+$$Ke =  \max \min(\frac{CL_{\text{vanco}}}{Vd}, &nbsp; 0.15),&nbsp; 0.008)$$
 
 $$ Half-life = \frac{0.693}{{Ke}}$$
