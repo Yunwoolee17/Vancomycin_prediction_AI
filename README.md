@@ -1,4 +1,4 @@
-# Developing prediction machine learning model for initial dosing of Vancomycin
+# Developing machine learning model for prediction initial dosing of Vancomycin
 
 
 ## Dataset
