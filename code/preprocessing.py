@@ -34,18 +34,6 @@ def plt_normalization(plt):
 def bmi_normalization(bmi):
     return simple_normalization(bmi, [18.5, 22.9, 24.9, 29.9])
 
-def bmi_normalize2(bmi):
-  if bmi < 18.5:
-    return 0
-  elif bmi < 22.9:
-    return 1
-  elif bmi < 24.9:
-    return 2
-  elif bmi < 29.9:
-    return 3
-  else:
-    return 4
-
 df_vanco = pd.read_csv('dataset/Vancomycin_CRF_ver11.csv')
 df_vanco_norm = deepcopy(df_vanco)
 
