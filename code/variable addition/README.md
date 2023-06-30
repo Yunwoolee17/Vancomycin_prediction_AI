@@ -14,6 +14,5 @@ $$\text{{Ke}} = \frac{CLvanco}{Vd}$$
 $$ Half-life = \frac{0.693}{\text{{Ke}}}$$
 
 
-
 1. Bauer LA. Applied Clinical Pharmacokinetics. McGraw-Hill/Appleton & Lange; 2001.
 2. website: <be https://derangedphysiology.com/main/cicm-primary-exam/required-reading/pharmacokinetics/Chapter%20322/half-life />
