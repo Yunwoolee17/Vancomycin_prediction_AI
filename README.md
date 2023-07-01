@@ -14,7 +14,14 @@
 
 ## Pre-processing
 
+# Variable addtion
+- Cockcroft-Gault CrCl, mL/min = (140 – age) × (weight, kg) × (0.85 if female) / (72 × Cr, mg/dL)
+- CLvanco : (0.695∗CrCl/TotalBW+0.05)∗TotalBW∗0.06 , 'Bauer Method'
+- Vd :  0.7 L/kg , 'Bauer Method'
+- Ke : (0.00083×CrCl)+0.0044
+- Half_life : 0.693 / Ke
 
+# 
 
 ## Modeling
 
