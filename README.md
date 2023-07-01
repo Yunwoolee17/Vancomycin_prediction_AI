@@ -14,7 +14,7 @@
 
 ## Pre-processing
 
-# Variable addtion
+### Variable addtion
 - Cockcroft-Gault CrCl, mL/min = (140 – age) × (weight, kg) × (0.85 if female) / (72 × Cr, mg/dL)
 - CLvanco : (0.695∗CrCl/TotalBW+0.05)∗TotalBW∗0.06 , 'Bauer Method'
 - Vd :  0.7 L/kg , 'Bauer Method'
