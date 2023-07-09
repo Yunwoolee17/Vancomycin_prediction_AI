@@ -14,7 +14,7 @@
 
 ## Pre-processing
 
-# This code is rounding certain columns to a specified decimal place using the round() function in pandas
+### This code is rounding certain columns to a specified decimal place using the round() function in pandas
 
 dfVanco['BMI'] = round(dfVanco['BMI'], 1)
 dfVanco['WBC'] = round(dfVanco['WBC'], 1)
@@ -23,7 +23,7 @@ dfVanco['Clvanco'] = round(dfVanco['Clvanco'], 1)
 dfVanco['Half_life'] = round(dfVanco['Half_life'], 1)
 dfVanco['Ke'] = round(dfVanco['Ke'], 3)
 
-# To remove outliers, remove the top and bottom 5% of the dataset
+### To remove outliers, remove the top and bottom 5% of the dataset
 
 q1 = dfVanco['Initial VCM_daily_dose'].quantile(0.05)
 q2 = dfVanco['Initial VCM_daily_dose'].quantile(0.5)
