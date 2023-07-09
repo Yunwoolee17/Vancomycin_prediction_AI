@@ -30,7 +30,7 @@
   - 4-fold amplification after excluding 99 patients who received 2000mg out of 164 patients : n = 260 ( (164-99) * 4 )
   - Combining the above data with the existing 164 people : n = 424 (164 + 260)
   
-- transformed_dataset : n = 424
+- Log transformed_dataset : n = 424
   - A dataset that takes the 'Natural Logarithm' of the target value 'Initial VCM_daily_dose'
   - Code : df1['Initial VCM_daily_dose_log'] = df1['Initial VCM_daily_dose'].apply(lambda x: math.log(x))
   - Example)
