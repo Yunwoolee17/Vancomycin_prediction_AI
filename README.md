@@ -22,6 +22,7 @@ Vd and Clvanco are calculated based on Bauer Method[1].
 
 Ke and Half-life are calculated based on formulas[2].
 
+
 $$ CrCl = \frac{{(140 - \text{{age}}) \times \text{{Gender(Male = 1, Female = 0.85)}} \times \text{{body weight}}}}{72 \times \text{{Scr}}}$$
 
 $$ Clvanco =  (0.695 \times frac{\text{{CrCl}}}{BodyWeight} + 0.05) \times 0.06$$
