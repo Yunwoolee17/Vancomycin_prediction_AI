@@ -1,4 +1,4 @@
-## The feature importance plot that can be run on colab does not work on github, so the result and printout are separately uploaded as a pdf version.
+## The feature importance plot that can be run on colab does not work on github, so the result of feature importance are separately uploaded 
 
 ### 1. orginial_dataset 'Pycaret' feature importance (All variables are used & 2 outlier removed)
 ![image](https://github.com/Yunwoolee17/Vancomycin_prediction_AI/assets/136066259/e11e7cad-a940-44b8-a692-d27adf75386d)
