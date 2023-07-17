@@ -21,12 +21,15 @@
   - Missing Value
 
 ### 1-2. Dataset Description
-- original_dataset : n = 166
+- raw_dataset : n = 166
   - Patients with an AUC value between 400 and 600 who did not meet the exlcusion criteria.
   - 99 patients, 60% of patients, received 2000 mg of VCM.
-  
-- augmented_dataset : n = 424
+
+- original_dataset : n = 164
   - Removed 2 outliers out of 166 in original_dataset: n = 164
+  - Patients who received 4560mg and 5700mg of VCM were removed.
+
+- augmented_dataset : n = 424
   - 4-fold amplification after excluding 99 patients who received 2000mg out of 164 patients : n = 260 ( (164-99) * 4 )
   - Combining the above data with the existing 164 people : n = 424 (164 + 260)
   
