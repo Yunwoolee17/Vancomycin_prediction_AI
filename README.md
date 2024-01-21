@@ -49,7 +49,7 @@ The dataset required for this model can be downloaded from the `dataset` folder 
 
 
 
-## 4. Results
+## 5. Results
 Random Forest, XGBoost, and Ensemble models were evaluated using MSE, RMSE, R², and an accuracy measure with a ±20% threshold of the actual dose.
 
 - Internal Validation Results:
@@ -72,5 +72,5 @@ XGBoost : 62.8%
 Ensemble : 65.7%
 23 out of 35 (Number of Correct Predictions)
 
-## 5. Contact
+## 6. Contact
 For any queries, you can reach out to [kunlun6798@gmail.com].
