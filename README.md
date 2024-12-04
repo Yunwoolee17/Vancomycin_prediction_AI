@@ -1,4 +1,4 @@
-# Development and external validation of a machine learning model for predicting initial vancomycin dose to target the area under the concentration-time curve of 400–600 mg∙h/L 
+# Development and external validation of a machine learning model to predict the initial dose of vancomycin for targeting an area under the concentration-time curve of 400–600 mg∙h/L  
 
 ## 1. Introduction
 This repository contains dataset and code for predicting the initial dosing of vancomycin, an antibiotic used to treat serious bacterial infections. The code performs internal and external validation of the predictive model.
@@ -7,12 +7,10 @@ This repository contains dataset and code for predicting the initial dosing of v
 
 ## 2. Dependencies and Installation
 To run the code, you need Python and the following libraries:
-- pandas
-- numpy
-- scikit-learn
-- xgboost
-- matplotlib
-- seaborn
+- pandas, numpy
+- scikit-learn, xgboost, lightgbm, catboost, shap 
+- matplotlib, seaborn
+- google.colab 
 
 You can install the required libraries using `pip`:
 
@@ -20,57 +18,19 @@ You can install the required libraries using `pip`:
 The dataset required for this model can be downloaded from the `dataset` folder in this repository.
 
 ## 4. Code Overview
-- 1 Upload training dataset
-- 2 Analysis of training dataset
-  - 2-1 Description of training dataset
-  - 2-2 Distributions of all variables
-- 3 Modeling
-  - 3-1 Data Splitting
-  - 3-2 Random Forest Model
-  - 3-3 XGBoost Model
-  - 3-4 Ensemble Model
-  - 3-5 Model Performance Comparison
-- 4 Internal validation
-  - 4-1 Internal dataset load
-  - 4-2 Predictions using trained models
-  - 4-3 Evaluation : Calculate accuracy based on the 20% threshold
-- 5 External validation
-  - 5-1 External dataset load
-  - 5-2 Predictions using trained models
-  - 5-3 Evaluation : Calculate accuracy based on the 20% threshold
-- 6 Model Performance Summary
-- 7 Feature importance analysis
-  - Random Forest
-  - XGBoost
-  - Ensemble Model
-- 8 supplementary materials
-  - 8-1 Distributions of internal training dataset
-  - 8-2 Distributions of external training datase
 
-
+1. Data Upload and preparation
+2. Exploratory Data Analysis (EDA)
+3. Modeling
+4. Internal validation
+5. External vadliation & visualization
+6. Summary of parameter
+7. SHAP(SHapley Additive exPlanations) analysis
+8. Supplemental Material - Distribution of Internal, external dataset
 
 ## 5. Results
-Random Forest, XGBoost, and Ensemble models were evaluated using MSE, RMSE, R², and an accuracy measure with a ±20% threshold of the actual dose.
 
-- Internal Validation Results
-  - Dataset Size: 44 patients
-  - Model Accuracy:
-    - Random Forest : 56.8%
-      - 25 out of 44 (Number of Correct Predictions)
-    - XGBoost : 54.5%
-      - 24 out of 44 (Number of Correct Predictions)
-    - Ensemble : 59.0%
-      - 26 out of 44 (Number of Correct Predictions)
-
-- External Validation Results
-  - Dataset Size: 35 patients
-  - Model Accuracy:
-    - Random Forest : 71.4%
-      - 25 out of 35 (Number of Correct Predictions)
-    - XGBoost : 62.8%
-      - 22 out of 35 (Number of Correct Predictions)
-    - Ensemble : 65.7%
-      - 23 out of 35 (Number of Correct Predictions)
+The performance of six machine learning models and a Voting Ensemble was evaluated using root mean squared error (RMSE), mean absolute error (MAE), R-squared (R²), and 20% accuracy (predictions within ±20% of the actual dose). In internal validation, the Random Forest model demonstrated the best 20% accuracy at 56.8%. In external validation, the XGBoost model achieved the highest 20% accuracy at 74.3%. 
 
 ## 6. Contact
 For any queries, you can reach out to [kunlun6798@gmail.com].
